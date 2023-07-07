@@ -1,0 +1,131 @@
+body {
+  background-color: #e9edee;
+  font-weight: bold;
+}
+
+header figure {
+  background-color: #222f3e;
+  padding: 10px;
+  padding-left: 30px;
+  height: 70px;
+}
+header div:first-of-type {
+  background-color: #36465a;
+  color: white;
+  height: 30px;
+}
+header div p {
+  padding-inline: 20px;
+  margin-top: 5px;
+  display: inline-block;
+  font-size: 1.2rem;
+  font-weight: 100;
+}
+/* main */
+main section {
+  text-align: center;
+  background-color: #dc6117;
+  height: 35px;
+  color: white;
+  padding-top: 10px;
+  width: 1800px;
+  margin-inline: auto;
+  font-size: 1.3rem;
+  margin-top: 35px;
+  font-weight: 100;
+}
+/* section1 */
+section1 div {
+  font-size: 2.6rem;
+  background-image: url(../assets/bg-image.png);
+  height: 140px;
+  width: 1800px;
+  text-align: center;
+  margin-top: 35px;
+  margin-bottom: 100px;
+  margin-inline: auto;
+  background-size: 93%;
+  color: white;
+  padding-top: 70px;
+}
+section1 div p:last-of-type {
+  font-size: 1.6rem;
+  margin-top: 20px;
+}
+/* section2 */
+section2 > div {
+  background-color: white;
+  width: 1800px;
+  margin-inline: auto;
+  height: 600px;
+}
+section2 div:first-of-type div:first-of-type p {
+  display: inline-block;
+  margin-left: 30px;
+  font-size: 1.6rem;
+  margin-top: 20px;
+}
+section2 div:first-of-type div:first-of-type a {
+  display: inline-block;
+  margin-left: 10px;
+  text-decoration: none;
+  color: #479576;
+  font-size: 1.4rem;
+}
+section2 div div:last-of-type figure {
+  display: inline-block;
+  margin-top: 30px;
+  margin-left: 37px;
+}
+section2 div div:last-of-type figure img {
+  border-radius: 30px;
+  box-shadow: 11px 18px 15px -3px rgba(0, 0, 0, 0.1);
+}
+/* main section3 */
+section3 > div {
+  width: 1800px;
+  margin-inline: auto;
+  text-align: center;
+}
+section3 div div figure img {
+  display: inline-block;
+  width: 1800px;
+  margin-top: 50px;
+  border: 1px solid grey;
+}
+
+section3 div div div a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: #479576;
+}
+section3 div div div p {
+  margin-right: 10px;
+  font-size: 1.6rem;
+  display: inline-block;
+}
+/* footer */
+footer {
+  margin-top: 30px;
+}
+footer figure {
+  background-color: #222f3e;
+  padding: 10px;
+  padding-left: 30px;
+  height: 150px;
+  text-align: center;
+  padding-top: 80px;
+}
+footer div {
+  background-color: #36465a;
+  height: 45px;
+  text-align: center;
+}
+footer div a {
+  color: white;
+  font-size: 1.4rem;
+  margin-top: 500px;
+}
+footer div {
+  padding-top: 20px;
+}
