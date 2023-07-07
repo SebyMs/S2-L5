@@ -1,6 +1,8 @@
 body {
   background-color: #e9edee;
   font-weight: bold;
+  font-family: sans-serif;
+  box-sizing: border-box;
 }
 
 header figure {
