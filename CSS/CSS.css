@@ -9,10 +9,11 @@ header figure {
   padding-left: 30px;
   height: 70px;
 }
-header div:first-of-type {
+header div {
   background-color: #36465a;
   color: white;
   height: 30px;
+  min-width: 705px;
 }
 header div p {
   padding-inline: 20px;
@@ -28,7 +29,7 @@ main section {
   height: 35px;
   color: white;
   padding-top: 10px;
-  width: 1800px;
+  width: 90vw;
   margin-inline: auto;
   font-size: 1.3rem;
   margin-top: 35px;
@@ -39,7 +40,7 @@ section1 div {
   font-size: 2.6rem;
   background-image: url(../assets/bg-image.png);
   height: 140px;
-  width: 1800px;
+  width: 90vw;
   text-align: center;
   margin-top: 35px;
   margin-bottom: 100px;
@@ -55,9 +56,8 @@ section1 div p:last-of-type {
 /* section2 */
 section2 > div {
   background-color: white;
-  width: 1800px;
+  width: 90vw;
   margin-inline: auto;
-  height: 600px;
 }
 section2 div:first-of-type div:first-of-type p {
   display: inline-block;
@@ -75,21 +75,24 @@ section2 div:first-of-type div:first-of-type a {
 section2 div div:last-of-type figure {
   display: inline-block;
   margin-top: 30px;
-  margin-left: 37px;
+  margin-left: 2.5vw;
+  padding-bottom: 30px;
 }
 section2 div div:last-of-type figure img {
   border-radius: 30px;
   box-shadow: 11px 18px 15px -3px rgba(0, 0, 0, 0.1);
+  width: 19vw;
+  height: 40vh;
 }
 /* main section3 */
 section3 > div {
-  width: 1800px;
+  width: 90vw;
   margin-inline: auto;
   text-align: center;
 }
 section3 div div figure img {
   display: inline-block;
-  width: 1800px;
+  width: 90vw;
   margin-top: 50px;
   border: 1px solid grey;
 }
@@ -125,6 +128,4 @@ footer div {
 footer div a {
   color: white;
   font-size: 1.4rem;
-  margin-top: 500px;
 }
-/* da rendere responsive */
