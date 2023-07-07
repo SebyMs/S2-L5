@@ -12,12 +12,12 @@ header figure {
 header div {
   background-color: #36465a;
   color: white;
-  height: 30px;
+  height: 40px;
   min-width: 705px;
 }
 header div p {
   padding-inline: 20px;
-  margin-top: 5px;
+  margin-top: 10px;
   display: inline-block;
   font-size: 1.2rem;
   font-weight: 100;
@@ -75,7 +75,7 @@ section2 div:first-of-type div:first-of-type a {
 section2 div div:last-of-type figure {
   display: inline-block;
   margin-top: 30px;
-  margin-left: 2.5vw;
+  margin-left: 2.7vw;
   padding-bottom: 30px;
 }
 section2 div div:last-of-type figure img {
@@ -129,3 +129,4 @@ footer div a {
   color: white;
   font-size: 1.4rem;
 }
+/* rendere responsive header  */
